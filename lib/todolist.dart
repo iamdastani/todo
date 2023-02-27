@@ -7,6 +7,7 @@ class ToDoList extends StatelessWidget {
   
  ToDoList({
   super.key,
+  required this.taskName,
  });
 
   @override
