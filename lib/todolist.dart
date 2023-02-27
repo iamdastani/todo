@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class ToDoList extends StatelessWidget {
+ final String taskName;
   const ToDoList({super.key});
 
   @override
