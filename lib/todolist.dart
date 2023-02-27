@@ -11,6 +11,8 @@ class ToDoList extends StatelessWidget {
         padding: EdgeInsets.all(24),
       child: Row(
         children: [
+          //checkout
+
             //name of task
           Text('maisha'),
         ],
