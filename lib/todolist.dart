@@ -24,7 +24,7 @@ class ToDoList extends StatelessWidget {
           Checkbox(value: value, onChanged: onChanged)
 
             //name of task
-          Text('maisha'),
+          Text(taskName),
         ],
       ),
       decoration: BoxDecoration(color: Colors.yellow),
