@@ -6,7 +6,7 @@ class ToDoList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.all(25),
+      padding: EdgeInsets.all(25.5),
       child: Container(
         padding: EdgeInsets.all(24),
       child: Row(
