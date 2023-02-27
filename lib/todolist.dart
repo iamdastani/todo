@@ -8,6 +8,7 @@ class ToDoList extends StatelessWidget {
     return Padding(
       padding: EdgeInsets.all(24),
       child: Container(
+        padding: EdgeInsets.all(24),
       child: Row(
         children: [
 
