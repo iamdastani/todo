@@ -5,8 +5,9 @@ class ToDoList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return Padding(
       padding: EdgeInsets.all(24),
+      child: Container(
       child: Row(
         children: [
 
@@ -14,6 +15,6 @@ class ToDoList extends StatelessWidget {
         ],
       ),
       decoration: BoxDecoration(color: Colors.yellow),
-    );
+     ), );
   }
 }
