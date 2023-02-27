@@ -6,9 +6,10 @@ class ToDoList extends StatelessWidget {
   Function(bool?)? onChanged;
   
  ToDoList({
-  super.key,
-  required this.taskName,
+    super.key,
+    required this.taskName,
     required this.taskCompleted,
+    required this.onChanged,
  });
 
   @override
