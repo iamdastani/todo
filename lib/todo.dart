@@ -23,9 +23,6 @@ class Todo extends StatefulWidget {
     body: ListView(
       children: [
         ToDoList(),
-        ToDoList(),
-        ToDoList(),
-         ToDoList()
       ],
     ),);
   }
