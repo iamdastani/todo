@@ -12,6 +12,7 @@ class ToDoList extends StatelessWidget {
       child: Row(
         children: [
           //checkout
+          Checkbox(value: value, onChanged: onChanged)
 
             //name of task
           Text('maisha'),
