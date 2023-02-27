@@ -5,7 +5,7 @@ class ToDoList extends StatelessWidget {
   final bool taskCompleted;
   Function(bool?)? onChanged;
   
-  const ToDoList({super.key});
+ 
 
   @override
   Widget build(BuildContext context) {
