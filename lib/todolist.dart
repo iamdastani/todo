@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 
 class ToDoList extends StatelessWidget {
- final String taskName;
+  final String taskName;
   final bool taskCompleted;
+  Function(bool?)? onChanged;
+  
   const ToDoList({super.key});
 
   @override
